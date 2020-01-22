@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Love Prcentage</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./bootstrap.css" /> -->
+</head>
+<body>
+<div class="root">
+    <nav class="heading" id="menuHeading">
+        <div class="menu_link" onclick="toggleMenu()" id="menuLinkHandler">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="left_circle" id="menuLink">
+            <div class="link_list">
+                <div class="link_home link">Home</div>
+                <div class="link_about link">About</div>
+                <div class="link_contact link">Contact</div>
+                <div class="link_faq link">FAQ</div>
+            </div>
+        </div>
+        <div class="logo">
+            <a>
+                <img src="logo.png"/>
+            </a>
+        </div>
+        <div class="change_language" id="">
+            <a>
+                <img src="globe.png"/>
+            </a>
+        </div>
+        <select class="select_language">
+            <option>English</option>
+            <option>Sweden</option>
+            <option>Denmark</option>
+            <option>Iceland</option>
+            <option>Finland</option>
+        </select>
+        <div class="right_circle"></div>
+    </nav>
+    <div class="main_container">
+        <div class="enter_name_div">
+            <div class="male_svg">
+                <img src="./male.svg" width="20px"/>
+            </div>
+            <div class="female_svg">
+                <img src="./female.svg" width="20px"/>
+            </div>
+            <div class="select_gender_error">Please select gender</div>
+            <input type="text" class="home_enter_name" placeholder="Enter Your Name" minlength="1" maxlength="35">
+            <div class="error">Please enter name</div>
+        </div>
+
+        <div class="enter_name_div">
+            <div class="male_svg select">
+                <img src="./male.svg" width="20px"/>
+            </div>
+            <div class="female_svg">
+                <img src="./female.svg" width="20px"/>
+            </div>
+            <div class="select_gender_error">Please select gender</div>
+            <input type="text" class="home_enter_name" placeholder="Enter Your Name" minlength="1" maxlength="35">
+            <div class="error">Please enter name</div>
+        </div>
+
+        <button class="real_lovemeter_button">Caculate</button>
+        <div class="love_percentage">Your Love Percentage is 87.</div>
+        <div class="love_percentage_gif">
+            <img src="./emoji.png" alt="Love Percentage" /><span>87%</span>
+        </div>
+        <button class="fooled_lovemeter_button">Replay</button>
+        <div class="register_new_prank_friends">
+            Register now to prank your friends.
+        </div>
+        <button class="genuine_lovemeter_button">Click Here</button>
+    </div>
+    <div class="footer">
+        <div class="social_links">
+            <a href="https://www.facebook.com/BuddyMojo-622383398186210/" target="_blank"><img src="./face.png"></a><a href="https://www.instagram.com/buddymojo1/" target="_blank"><img src="./insta.png"></a><a href="https://twitter.com/buddy_mojo"  target="_blank"><img src="./twit.png"></a>
+        </div>	
+        <div class="footer_contents">
+            <a href="http://buddymojo.local/about-us">About us</a><a href="http://buddymojo.local/contact-us">Contact Us</a><a href="http://buddymojo.local/privacy-policy">Privacy Policy</a></br>
+            <b>Disclaimer:</b> All content is provided for fun and entertainment purposes only     
+            <div> 
+                © 2019 Lovetwo All rights Reserved            
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./Custom.js"></script>
+</body>
+</html>
